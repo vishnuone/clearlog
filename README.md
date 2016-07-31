@@ -4,6 +4,7 @@ It helps track down the error to a specific line in the file.
 Can add valuable trace data to locate error to exact point too.
 Because the log is tab separated we can use excel or other spreadsheet programs to view it. We can also parse it easily for use with analysis tools.
 
+showing file path and line number maynot be a good idea for many applications. For my personal use i like having it.
 
 ```
 package main
