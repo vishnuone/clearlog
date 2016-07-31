@@ -35,6 +35,6 @@ Log :
 
 ```
 2016/07/31 11:03:23 	info	Starting...
-2016/07/31 11:03:23 	error	/Users/jaymac/golang/src/github.com/vishnuone/demo.go:14	error from foo func.	dataId:10
+2016/07/31 11:03:23 	error	/Users/vishnuone/golang/src/github.com/vishnuone/demo.go:14	error from foo func.	dataId:10
 2016/07/31 11:03:23 	info	Stopping...
 ```
