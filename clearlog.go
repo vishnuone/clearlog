@@ -8,7 +8,7 @@ import (
 
 
 func Info(message string) {
-	log.Print(message)
+	log.Print("\tinfo\t" + message)
 }
 
 func Error(error error, msg string) {
@@ -17,5 +17,5 @@ func Error(error error, msg string) {
 		file = "???"
 		line = 0
 	}
-	log.Print(file + ":" + strconv.Itoa(line) + "\n" + error.Error() + "\n" + msg)
+	log.Print("\terror\t" + file + ":" + strconv.Itoa(line) + "\t" + error.Error() + "\t" + msg)
 }
